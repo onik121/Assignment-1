@@ -327,3 +327,66 @@ header{
     font-size: 17px;
     margin-left: -5px;
 }
+
+
+/*---footer--*/
+
+footer{
+    background: #070211;
+}
+
+.footer-div{
+    border: px solid red;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.footer-container h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    font-family: Inter;
+}
+
+.icon div{
+    display: flex;
+    align-items: center;
+    padding: 3px 0px;
+}
+
+.icon div img{
+    padding-right: 10px;
+    margin-top: 3px;
+}
+
+.social{
+    border: px solid white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.social img{
+    width: 70px;
+    padding: 0px 5px;
+}
+
+
+.copyright-text{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display:flex;
+}
+.copyright-text h4{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
