@@ -318,8 +318,10 @@ header{
     display: flex;
 }
 
+
+
 .holiday-div div{
-    height: 66.6vh;
+    height: 629px;
 }
 
 .holiday-div-img{
@@ -338,6 +340,7 @@ header{
     justify-content: end;
     position: relative;
     width: 40%;
+    border: px solid red;
 }
 
 .discount-img{
@@ -347,11 +350,10 @@ header{
 }
 
 .onik{
-    border: px solid black;
     width: 230px;
     position: absolute;
-    left: 180px;
-    top: 85px;
+    left: 15px;
+    top: 90px;
 }
 /*-----*/
 
