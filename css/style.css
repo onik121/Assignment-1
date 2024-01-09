@@ -196,6 +196,84 @@ header{
 
 
 
+/*-----*/
+.comming{
+    width: 100%;
+    height: auto;
+    border: px solid red;
+    display: flex;
+}
+
+.comming-soon{
+    width: 1320px;
+    min-height: 435px;
+    height: auto;
+    margin: 0 auto;
+    border: px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.comming-soon-div{
+    border: px solid green;
+    width: 435px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comming-soon-img{
+    border: 13px solid #F00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 410px;
+}
+
+.comming-soon-img img{
+    width: 340px;
+    height: 340px;
+}
+
+.comming-text{
+    border: px solid red;
+    width: 90%;
+}
+
+.comming-text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comming-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.comming-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*-----*/
+
+
+
 
 
 
@@ -231,7 +309,7 @@ header{
 .portfolio-text p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -247,6 +325,11 @@ header{
 .Portfolio-div img{
     width: 420px;
     height: 440px;
+    transition: 0.5s;
+}
+
+.Portfolio-div img:hover{
+    transform: translatey(-12px);
 }
 /*-----*/
 
