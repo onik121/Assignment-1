@@ -142,6 +142,17 @@ header{
     margin-top: 25px;
 }
 
+.midnight-text button{
+    border: none;
+    background: none;
+    color:white;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .midnight-img{
     width: 25%;
     text-align: right;
@@ -166,7 +177,6 @@ header{
 
 }
 
-
 .new-park h4{
     color: #070211;
     font-family: Inter;
@@ -190,6 +200,7 @@ header{
     font-family: Inter;
     font-weight: 500;
     margin-top: 20px;
+    cursor: pointer;
 }
 /*-----*/
 
@@ -521,6 +532,7 @@ header{
     font-family: Inter;
     font-size: 17px;
     margin-left: -5px;
+    cursor: pointer;
 }
 /*-----*/
 
