@@ -201,13 +201,14 @@ header{
 
 /*-----*/
 .portfolio{
-    border: px solid red;
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Portfolio{
-    border: px solid black;
     width: 1320px;
     margin: 0 auto;
 }
@@ -243,15 +244,9 @@ header{
     margin-top: 30px;
 }
 
-.Portfolio-div div{
-    border: px solid green;
+.Portfolio-div img{
     width: 420px;
     height: 440px;
-}
-
-.Portfolio-div div img{
-    width: 100%;
-    height: 100%;
 }
 /*-----*/
 
