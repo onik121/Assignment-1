@@ -8,13 +8,14 @@
 }
 
 
+
+
+/*----*/
 header{
     height: auto;
     width: 100%;
-    border: px solid green;
     padding: 50px 0px;
 }
-
 
 .hero{
     background-image: url(../images/Banner\ Image.png);
@@ -37,7 +38,6 @@ header{
 }
 
 .hero-text{
-    border: px solid blue;
     max-width: 550px;
 }
 
@@ -56,8 +56,9 @@ header{
     margin-bottom: 20px;
     font-family: Merriweather;
 }
-
 /*----*/
+
+
 
 
 
@@ -66,7 +67,6 @@ header{
 
 /*----*/
 .new-year{
-    border: px solid red;
     text-align: center;
     padding: 70px 0px;
 }
@@ -98,6 +98,8 @@ header{
     margin-bottom: 35px
 }
 /*----*/
+
+
 
 
 
@@ -149,6 +151,7 @@ header{
 
 
 
+
 /*----*/
 .new-park{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -163,9 +166,6 @@ header{
 
 }
 
-.new-park div{
-    border: px solid red;
-}
 
 .new-park h4{
     color: #070211;
@@ -210,7 +210,6 @@ header{
     min-height: 435px;
     height: auto;
     margin: 0 auto;
-    border: px solid black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -218,12 +217,12 @@ header{
 }
 
 .comming-soon-div{
-    border: px solid green;
     width: 435px;
     height: 100%;
     display: flex;
     align-items: center;
 }
+
 
 .comming-soon-div2{
     justify-content: right;
@@ -300,6 +299,7 @@ header{
 
 
 
+
 /*----*/
 .holiday{
     width: 100%;
@@ -314,7 +314,6 @@ header{
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    border: px solid black;
     display: flex;
 }
 
@@ -361,15 +360,13 @@ header{
 }
 
 .holiday-div-img img{
-    width: 580px;
+    width: 600px;
 }
 
 .discount{
-    display: fle;
     justify-content: end;
     position: relative;
     width: 40%;
-    border: px solid red;
 }
 
 .discount-img{
@@ -525,17 +522,19 @@ header{
     font-size: 17px;
     margin-left: -5px;
 }
+/*-----*/
+
+
+
 
 
 /*---footer--*/
-
 footer{
     background: #070211;
     padding: 100px 0px;
 }
 
 .footer-div{
-    border: px solid red;
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -569,7 +568,6 @@ footer{
 }
 
 .social{
-    border: px solid white;
     padding: 30px 0px;
     text-align: center;
 }
@@ -598,3 +596,5 @@ footer{
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
 }
+
+/*----*/
