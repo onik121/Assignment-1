@@ -160,6 +160,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .new-park div{
@@ -200,8 +201,8 @@ header{
 .comming{
     width: 100%;
     height: auto;
-    border: px solid red;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .comming-soon{
@@ -222,6 +223,10 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.comming-soon-div2{
+    justify-content: right;
 }
 
 .img-div{
@@ -246,7 +251,6 @@ header{
 }
 
 .comming-text{
-    border: px solid red;
     width: 90%;
 }
 
@@ -262,6 +266,7 @@ header{
     font-family: Merriweather;
     font-size: 42px;
     font-weight: 900;
+    padding: 15px 0px;
 }
 
 .comming-text p{
@@ -269,6 +274,25 @@ header{
     font-family: Inter;
     font-size: 17px;
     font-weight: 400;
+}
+
+.Comming-text{
+    width: 80%;
+}
+
+.Comming-text h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Comming-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 25px 0px;
 }
 /*-----*/
 
